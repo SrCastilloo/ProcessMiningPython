@@ -1,0 +1,38 @@
+{
+  "version_pm4py": "2.7.23.12",
+  "casos_ciclo": 2069,
+  "eventos_ciclo": 22721,
+  "casos_creacion": 2064,
+  "eventos_creacion": 14448,
+  "variantes_creacion": 1,
+  "comparacion_grupos": [
+    {
+      "experimento": "con_inyeccion",
+      "etiqueta": "anomalia_inyectada",
+      "casos": 4,
+      "media_s": 39.0545,
+      "mediana_s": 37.3015,
+      "minimo_s": 30.173,
+      "maximo_s": 51.442
+    },
+    {
+      "experimento": "con_inyeccion",
+      "etiqueta": "sin_etiqueta_anomalia",
+      "casos": 192,
+      "media_s": 20.4783958333,
+      "mediana_s": 20.4215,
+      "minimo_s": 18.726,
+      "maximo_s": 27.467
+    },
+    {
+      "experimento": "referencia",
+      "etiqueta": "sin_etiqueta_anomalia",
+      "casos": 1868,
+      "media_s": 20.4341905782,
+      "mediana_s": 20.384,
+      "minimo_s": 10.792,
+      "maximo_s": 23.195
+    }
+  ],
+  "nota": "Etiquetas originales del dataset; comparación descriptiva, con cuatro casos etiquetados."
+}

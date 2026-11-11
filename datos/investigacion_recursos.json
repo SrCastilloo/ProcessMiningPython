@@ -1,0 +1,37 @@
+{
+  "registros_recursos": 16520,
+  "eventos_log_ampliado": 35111,
+  "intentos_observados": 2065,
+  "casos_con_datos_recursos": 2065,
+  "casos_ciclo_sin_registros_recursos": [
+    "con_inyeccion:2b590f10-49fd-4ec9-ae41-19596c2f4b25",
+    "con_inyeccion:3edec1e4-9678-4a3a-a21b-a145a4ee5e61",
+    "referencia:49ffab2b-3ae8-487a-a0a5-8174d9249a36",
+    "referencia:b9000564-fe1a-409b-b8cc-1e88b294cd1d"
+  ],
+  "registros_sin_clasificar": 0,
+  "combinaciones_distintas_de_medidas": 1,
+  "evaluaciones_reserva": {
+    "sin_deficit_de_memoria_observado": 2065
+  },
+  "reservas_confirmadas": 2065,
+  "rechazos_explicitos": 0,
+  "intentos_con_memoria_evaluable": 2065,
+  "margen_memoria_minimo_mb": 93698.0,
+  "intentos_que_superan_total_disco_declarado": 2065,
+  "intentos_con_disco_sin_limite_de_reserva": 2065,
+  "cobertura": "Mensajes de nova.compute.claims con marca [instance: UUID]; los desconocidos se conservan sin clasificar.",
+  "criterios": {
+    "memoria": "Déficit si memoria solicitada > memoria libre declarada según el límite de reserva.",
+    "disco_y_cpu": "Se conservan totales y solicitudes; sin límite declarado no se infiere un rechazo.",
+    "rechazo": "Solo las frases Claim failed y Unable to claim resources se cuentan como rechazo explícito."
+  },
+  "limitaciones": [
+    "Usado significa recurso contabilizado en estos mensajes, no utilización real medida.",
+    "El total puede diferir del límite de reserva; superar el total no demuestra un fallo.",
+    "Un dato ausente no equivale a cero ni demuestra que haya recursos suficientes.",
+    "La evaluación de memoria no garantiza disponibilidad de disco, CPU u otros recursos.",
+    "Las reglas no cubren todos los errores posibles de OpenStack ni mensajes sin VM identificada.",
+    "Las etiquetas de anomalía de la fuente se conservan; no se atribuye su causa a los recursos."
+  ]
+}

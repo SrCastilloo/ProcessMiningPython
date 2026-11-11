@@ -1,0 +1,11 @@
+prefijo_original,actividad
+Attempting claim:,Reservar recursos
+Claim successful,Recursos reservados
+Creating image,Preparar imagen
+VM Started (Lifecycle Event),VM iniciada
+VM Paused (Lifecycle Event),VM pausada
+VM Resumed (Lifecycle Event),VM reanudada
+Instance spawned successfully.,Creación completada
+Terminating instance,Iniciar eliminación
+Instance destroyed successfully.,Instancia destruida
+VM Stopped (Lifecycle Event),VM detenida

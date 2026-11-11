@@ -1,0 +1,25 @@
+{
+  "fuente": "https://zenodo.org/records/8196385",
+  "archivo_md5": "66bd42c07837a094d9b0ea2d036b5713",
+  "lineas_por_archivo": {
+    "openstack_abnormal.log": 18434,
+    "openstack_normal1.log": 52312,
+    "openstack_normal2.log": 137074
+  },
+  "lineas_totales": 207820,
+  "lineas_sin_cabecera_reconocida": 8,
+  "lineas_con_instancia": 51553,
+  "eventos_seleccionados": 22721,
+  "casos_con_eventos_seleccionados": 2069,
+  "casos_creacion_con_limites_observados": 2064,
+  "casos_excluidos_del_analisis_temporal_creacion": 5,
+  "eventos_creacion": 14448,
+  "uuids_etiquetadas_por_la_fuente": [
+    "1643649d-2f42-4303-bfcd-7798baec19f9",
+    "544fd51c-4edc-4780-baae-ba1d80a0acfc",
+    "a445709b-6ad0-40ec-8860-bec60b6ca0c2",
+    "ae651dff-c7ad-43d6-ac96-bbcd820ccca8"
+  ],
+  "politica_tiempo": "Reloj original sin zona horaria declarada; se calculan diferencias dentro del mismo caso.",
+  "seleccion": "Diez prefijos explícitos; las notificaciones repetidas se conservan."
+}

@@ -1,0 +1,13 @@
+etiqueta,origen,destino,media_s
+sin_etiqueta_anomalia,Preparar imagen,VM iniciada,13.139625
+sin_etiqueta_anomalia,Recursos reservados,Preparar imagen,0.611125
+sin_etiqueta_anomalia,Reservar recursos,Recursos reservados,0.037296875
+sin_etiqueta_anomalia,VM iniciada,VM pausada,0.07136458333333333
+sin_etiqueta_anomalia,VM pausada,VM reanudada,6.6102083333333335
+sin_etiqueta_anomalia,VM reanudada,Creación completada,0.008776041666666666
+anomalia_inyectada,Preparar imagen,VM iniciada,31.6905
+anomalia_inyectada,Recursos reservados,Preparar imagen,0.70275
+anomalia_inyectada,Reservar recursos,Recursos reservados,0.03924999999999999
+anomalia_inyectada,VM iniciada,VM pausada,0.06625
+anomalia_inyectada,VM pausada,VM reanudada,6.548
+anomalia_inyectada,VM reanudada,Creación completada,0.00775

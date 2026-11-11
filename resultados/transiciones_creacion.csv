@@ -1,0 +1,7 @@
+origen,destino,ocurrencias,media_s,mediana_s
+Preparar imagen,VM iniciada,2064,13.14859496124031,13.08
+Recursos reservados,Preparar imagen,2064,0.6089127906976743,0.588
+Reservar recursos,Recursos reservados,2064,0.03793071705426357,0.037
+VM iniciada,VM pausada,2064,0.0705595930232558,0.066
+VM pausada,VM reanudada,2064,6.599266957364342,6.566
+VM reanudada,Creación completada,2064,0.009123546511627906,0.009

@@ -1,0 +1,4 @@
+pm4py==2.7.23.12
+pandas>=2.2.3
+matplotlib>=3.8
+numpy>=1.26

@@ -1,0 +1,7 @@
+casos,secuencia
+2062,Reservar recursos | Recursos reservados | Preparar imagen | VM iniciada | VM pausada | VM reanudada | Creación completada | VM reanudada | Iniciar eliminación | Instancia destruida | VM detenida
+2,VM detenida
+2,Reservar recursos | Recursos reservados | Preparar imagen | VM iniciada | VM pausada | VM reanudada | Creación completada | VM reanudada
+1,Preparar imagen | VM iniciada | VM pausada | VM reanudada | Creación completada | VM reanudada | Iniciar eliminación | Instancia destruida | VM detenida
+1,Reservar recursos | Recursos reservados | Preparar imagen | VM detenida
+1,VM iniciada | VM pausada | VM reanudada | Creación completada | VM reanudada | Iniciar eliminación | Instancia destruida | VM detenida

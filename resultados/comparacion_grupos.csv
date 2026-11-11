@@ -1,0 +1,4 @@
+experimento,etiqueta,casos,media_s,mediana_s,minimo_s,maximo_s
+con_inyeccion,anomalia_inyectada,4,39.0545,37.301500000000004,30.173,51.442
+con_inyeccion,sin_etiqueta_anomalia,192,20.478395833333334,20.4215,18.726,27.467
+referencia,sin_etiqueta_anomalia,1868,20.434190578158457,20.384,10.792,23.195
