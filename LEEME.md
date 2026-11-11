@@ -12,42 +12,6 @@ VMs etiquetadas con anomalías por los autores con las que no tienen esa etiquet
 El registro completo publicado está incluido. No se necesita instalar OpenStack
 ni conectarse a una nube para ejecutar esta práctica.
 
-## Empezar en Windows
-
-Descomprime el ZIP y abre PowerShell dentro de `openstack_pm4py`.
-Necesitas Python y el programa Graphviz, como en el primer ejemplo de PM4Py.
-Esta práctica se ha ejecutado con Python 3.12.14 y PM4Py 2.7.23.12.
-
-```powershell
-dot -V
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe 01_preparar_datos.py
-.\.venv\Scripts\python.exe 02_analizar_procesos.py
-```
-
-El primer comando comprueba Graphviz. Los tres últimos instalan las dependencias,
-preparan los eventos y ejecutan el análisis. El ZIP incluye resultados ya
-generados para compararlos con los que obtengas.
-
-En macOS o Linux, con Graphviz y Python disponibles:
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python 01_preparar_datos.py
-.venv/bin/python 02_analizar_procesos.py
-```
-
-## Orden de lectura
-
-1. `GUIA_CODIGO.md`: explica los dos scripts con ejemplos de los datos.
-2. `datos/mapa_actividades.csv`: relaciona los mensajes originales con las actividades.
-3. `datos/eventos_vm.csv`: eventos seleccionados de todo el ciclo observado.
-4. `datos/eventos_creacion.csv`: ventanas de creación con inicio y final observados.
-5. `RESULTADOS.md`: resultados numéricos, interpretación y límites del análisis.
-6. `resultados/`: grafos PNG/SVG, variantes, estadísticas y comparación de tiempos.
-
 ## Qué hace cada script
 
 | Archivo | Entrada | Salida principal |
