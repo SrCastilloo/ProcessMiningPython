@@ -66,26 +66,3 @@ La sección 10 de `GUIA_CODIGO.md` explica las reglas y cómo interpretar las ci
 La separación permite observar un paso nuevo respecto al ejemplo de solicitudes:
 antes de llamar a PM4Py hay que convertir los mensajes técnicos en eventos.
 
-## Dataset y reproducibilidad
-
-- Publicación: https://zenodo.org/records/8196385 (Loghub, versión v8).
-- Archivo: `OpenStack.tar.gz`, 5 394 691 bytes.
-- MD5 publicado y verificado: `66bd42c07837a094d9b0ea2d036b5713`.
-- Contiene tres logs y `anomaly_labels.txt`, con cuatro UUID de VMs etiquetadas.
-- Origen y condiciones: consulta `FUENTES_Y_DATOS.md` y los README originales de
-  `datos/fuentes`.
-
-## Qué puedes explicar al profesor
-
-Se han transformado 207 820 líneas de logs externos en un registro de 22 721
-eventos seleccionados, correspondientes a 2 069 casos. Se ha descubierto el
-ciclo de vida observado y se han delimitado 2 064 ventanas de creación.
-
-En el modelo de creación, los casos analizados siguen la misma secuencia de
-siete actividades seleccionadas. Sin embargo, las cuatro VMs etiquetadas con
-anomalía tardan una media de 39,05 segundos frente a 20,48 segundos de las 192
-sin etiqueta del mismo experimento. El análisis temporal revela diferencias
-que el orden de las actividades por sí solo no distingue.
-
-La comparación es descriptiva. Las etiquetas proceden del dataset y cuatro
-casos no permiten generalizar a cualquier infraestructura cloud.
